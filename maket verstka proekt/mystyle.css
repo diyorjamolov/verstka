@@ -1,0 +1,160 @@
+*{
+    margin: 0px;
+    padding: auto;
+}
+.nav_logo a img{
+    width: 200px;
+    height: 150px;
+    margin-top: -30px;
+}
+
+.container{
+    max-width: 1400px;
+}
+.head_nav{
+    background-image: url(img/omega.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    padding: 50px;
+}
+
+.nav_item{
+    display: flex;
+}
+.nav_item ul{
+    display: flex;
+    margin-top: 40px;
+    margin-left: 100px;
+}
+.nav_item li{
+    justify-content: space-between;
+    margin-left: 100px;
+    list-style-type: none;
+}
+.nav_item li a{
+    text-decoration: none;
+    color: white;
+}
+a:hover{
+    border-bottom: 2px solid red;
+    transform: rotate3d(20deg);
+  
+    transition: 0.5s;
+    
+}
+
+.head_text{
+    color: white;
+    margin-top: 100px;
+    width: 300px;
+    text-align: center;
+    margin-left: 50px;
+    font-family: "Dancing Script", cursive;
+}
+.head_text p{
+    margin-top: 40px;
+}
+
+.main{
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.col1 img{
+    width: 400px;
+    height: 300px;
+    margin-bottom: 30px;
+}
+
+.col2 img{
+    width: 400px;
+    height: 300px;
+    margin-bottom: 30px;
+}
+.col1{
+    margin-left: -100px;
+}
+.col2{
+    margin-left: 150px;
+}
+.col1 button{
+    margin-top: 30px;
+    width: 200px;
+    height: 30px;
+    background-color: white;
+}
+
+.col1 button:hover{
+    transform: rotate3d(20deg);
+    background-color: black;
+    color: white;
+    transition: 0.5s;
+}
+
+.col2 button{
+    margin-top: 30px;
+    width: 200px;
+    height: 30px;
+    background-color: white;
+}
+.col2 button:hover{
+    transform: rotate3d(20deg);
+    background-color: black;
+    color: white;
+    transition: 0.5s;
+}
+
+.main_row{
+    display: flex;
+    margin-left: 300px;
+}
+.sidebar{
+    background-image: url(img/cosmo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 80vh;
+}
+.side_text{
+    color: white;
+    text-align: center;
+    margin-top: 100px;
+    margin-left: 100px;
+    width: 300px;
+    padding-top: 150px;
+    font-family: "Dancing Script", cursive;
+}
+
+.foot_nav{
+    background-color: black;
+    height: 50vh;
+    color: white;
+
+}
+.foot_item{
+    padding-top: 150px;
+    display: flex;
+}
+.foot_item li a{
+    color: white;
+    list-style-type: none;
+    text-decoration: none;
+}
+.contact{
+    margin-left: 100px;
+}
+.foot_text{
+    margin-left: 100px;
+    text-align: center;
+}
+.btn button{
+    margin-left: 100px;
+    margin-top: -100px;
+    width: 200px;
+    height: 50px;
+    background-color: white;
+    border: none;
+  
+}
